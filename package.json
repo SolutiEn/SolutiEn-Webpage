@@ -1,0 +1,7 @@
+{
+  "name": "FlexStart",
+  "version": "1.0.0",
+  "dependencies": {
+    "react-plotly.js": "^2.5.1"
+  }
+}
