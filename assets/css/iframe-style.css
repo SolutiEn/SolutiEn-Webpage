@@ -1,0 +1,6 @@
+iframe {
+    width: 100%;
+    min-height: 275vh;
+}
+/* todo: set event listener to adjust iframe height dynamically (currently gives cross origin error)
+   issue: current method only works at start and if user resizes page bad all things will go wrong */
