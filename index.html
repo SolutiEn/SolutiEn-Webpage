@@ -10,10 +10,9 @@
 
   <meta content="" name="keywords">
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
+  <!-- Icons -->
+  <link href="assets/img/logo2.png" rel="icon">
+  <link href="assets/img/logo2.png" rel="apple-touch-icon">
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
@@ -27,12 +26,17 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
+  <link href="assets/css/iframe-style.css" rel="stylesheet">
   <!-- =======================================================
-  * Authors:
-            BootstrapMade.com
-            SolutiEn Team
-            Keyvan Najafy <najafykeyvan@gmail.com>
+  * Credit:
+    * SolutiEn Team:
+      * Author: Keyvan Najafy <najafykeyvan@gmail.com>
+      * License: GPL-3.0 License
+    * BootstrapMade.com
+      * Template Name: FlexStart - v1.4.0
+      * Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
+      * Author: BootstrapMade.com
+      * License: https://bootstrapmade.com/license/
   ======================================================== -->
 </head>
 
@@ -49,22 +53,24 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
           <li class="dropdown"><a href="#"><span>Data</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li class="dropdown"><a href="#"><span>Charts</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="inner-page1.html">Iran Energy Exchange (IRENEX)</a></li>
-                  <li><a href="inner-page.html">Iran Mercantile Exchange (IME)</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Maps</a></li>
+                  <li class="dropdown"><a href="#"><span>Iran Energy Exchange (IRENEX)</span> <i class="bi bi-chevron-down"></i></a>
+                    <ul>
+                      <li><a href="irenex-local.html">Local</a></li>
+                      <li><a href="irenex-export.html">Export</a></li>
+                    </ul>
+                  <li class="dropdown"><a href="#"><span>Iran Mercantile Exchange (IME)</span> <i class="bi bi-chevron-down"></i></a>
+                    <ul>
+                      <li><a href="ime-local.html">Local</a></li>
+                    </ul>
             </ul>
           </li>
+          <li><a class="nav-link scrollto" href="#">Articles</a></li>
           <li><a class="nav-link scrollto" href="#footer">Contact</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+          <li><a class="getstarted" href="#services">Get Started</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -137,7 +143,7 @@
 
         <header class="section-header">
           <h2>Services</h2>
-          <p>Dive into Realtime Data with Comprehensive and Interactive Visualization</p>
+          <p>Dive into Realtime Data & Reports with Comprehensive and Interactive Visualization</p>
         </header>
 
         <div class="row gy-4">
@@ -146,15 +152,25 @@
             <div class="service-box blue">
               <i class="ri-bubble-chart-fill icon"></i>
               <h3>Iran Mercantile Exchange (IME)</h3>
-              <a href="inner-page.html" class="read-more"><span>View</span> <i class="bi bi-arrow-right"></i></a>
+              <a href="ime-local.html" class="read-more"><span>View Local Market</span> <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
             <div class="service-box orange">
               <i class="ri-bubble-chart-fill icon"></i>
               <h3>Iran Energy Exchange (IRENEX)</h3>
-              <a href="inner-page1.html" class="read-more"><span>View</span> <i class="bi bi-arrow-right"></i></a>
+              <a href="irenex-local.html" class="read-more"><span>View Local Market</span> <i class="bi bi-arrow-right"></i></a>
+              <a href="irenex-export.html" class="read-more"><span>View Global Market</span> <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-box green">
+              <i class="ri-book-2-fill icon"></i>
+              <h3>Reports</h3>
+              <a href="#" class="read-more"><span>View Our Articles</span> <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
