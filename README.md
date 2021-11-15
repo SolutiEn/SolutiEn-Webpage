@@ -4,7 +4,7 @@ Static Website for SolutiEn Research & consultancy
 
 ### Credits:
     Author: SolutiEn Research & consultancy
-    License: The GNU General Public License
+    License: GPL-3.0 License
     
 ### Based on:    
     Template Name: FlexStart
